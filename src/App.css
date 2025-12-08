@@ -1,6 +1,14 @@
-.globe-container {
+.app-container {
   width: 100%;
   min-height: 100vh;
+  position: relative;
+  overflow: hidden;
+  background: #000;
+}
+
+.globe-container {
+  width: 100%;
+  height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;

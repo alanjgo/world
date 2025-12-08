@@ -1,0 +1,1326 @@
+{
+  "version": 1,
+  "lastUpdated": "2025-12-08T21:22:22.555Z",
+  "places": {
+    "grouvie": {
+      "lat": 48.8530502,
+      "lng": 2.3391635,
+      "formattedAddress": "6 Cr du Commerce Saint-André, 75006 Paris, France",
+      "placeId": "ChIJxVrYvLdx5kcRVr_W7_f8ZEg"
+    },
+    "parque nacional manuel antonio": {
+      "lat": 9.392308,
+      "lng": -84.1369879,
+      "formattedAddress": "Manuel Antonio National Park, Provincia de Puntarenas, Quepos, Costa Rica",
+      "placeId": "ChIJS_Wpm5xxoY8Rhkpczjlh5pU"
+    },
+    "santa teresa": {
+      "lat": 9.6457266,
+      "lng": -85.1791693,
+      "formattedAddress": "Santa Teresa, Costa Rica",
+      "placeId": "ChIJJ-QBQP4J3oYRwpyHDH1hRMQ"
+    },    
+    "le vie del centro b&b": {
+      "lat": 40.8536171,
+      "lng": 14.2587867,
+      "formattedAddress": "Largo Donnaregina, 80130 Napoli NA, Italy",
+      "placeId": "ChIJY_RhVmoIOxMRfp43avqfy4c"
+    },
+    "kolanko no 6 restaurant": {
+      "lat": 50.0509294,
+      "lng": 19.9461595,
+      "formattedAddress": "Józefa 17, 31-056 Kraków, Poland",
+      "placeId": "ChIJDXVa30FbFkcR8S7Bl2_l6iM"
+    },
+    "pierwszy stopień restaurant": {
+      "lat": 50.04999249999999,
+      "lng": 19.9425796,
+      "formattedAddress": "Krakowska 17, 31-062 Kraków, Poland",
+      "placeId": "ChIJYxyfh2lbFkcRa5oGzbImzRc"
+    },
+    "village camping campogaio santafortunata": {
+      "lat": 40.62736990000001,
+      "lng": 14.35737,
+      "formattedAddress": "Village Camping Campogaio Santafortunata, Via Capo, 39/a, 80067 Sorrento NA, Italy",
+      "placeId": "ChIJXyv2aaKeOxMRIYDSd4Prw4s"
+    },
+    "11 rue fontanon": {
+      "lat": 43.6128366,
+      "lng": 3.8755229,
+      "formattedAddress": "11 Rue Fontanon, 34000 Montpellier, France",
+      "placeId": "ChIJzT0lKwavthIRYs8nTOW-QUw"
+    },
+    "le roi de la gaufre": {
+      "lat": 50.848522,
+      "lng": 4.353581999999999,
+      "formattedAddress": "Rue de la Fourche 41, 1000 Bruxelles, Belgium",
+      "placeId": "ChIJ3QSav2fDw0cRa5GE6077fPM"
+    },
+    "pâtisserie chocolaterie pralus paris rambuteau": {
+      "lat": 48.8610271,
+      "lng": 2.3538573,
+      "formattedAddress": "35 Rue Rambuteau, 75004 Paris, France",
+      "placeId": "ChIJxZWKfRtu5kcR-GuHR0uRo1E"
+    },
+    "etablissements u spuntinu": {
+      "lat": 48.8730764,
+      "lng": 2.3270339,
+      "formattedAddress": "21 Rue des Mathurins, 75009 Paris, France",
+      "placeId": "ChIJI-BVQjRu5kcRc3Wj3dDH6Js"
+    },
+    "champ de mars": {
+      "lat": 48.85580470000001,
+      "lng": 2.2983766,
+      "formattedAddress": "Champ de Mars, 75007 Paris, France",
+      "placeId": "ChIJB0gcnCBw5kcRHoIAPcTEApc"
+    },
+    "den hemel & d'helle": {
+      "lat": 51.2099309,
+      "lng": 3.2231093,
+      "formattedAddress": "Kuipersstraat 11, 8000 Brugge, Belgium",
+      "placeId": "ChIJEcGAI1RRw0cR-7dTZ3TFrSc"
+    },
+    "parking des carrières": {
+      "lat": 43.3334308,
+      "lng": -1.6232478,
+      "formattedAddress": "1360 Rte des Carrières, 64310 Ascain, France",
+      "placeId": "ChIJ5c8ZOcIRUQ0RQPTl-z0ey7Y"
+    },
+    "librairie mollat": {
+      "lat": 44.8409176,
+      "lng": -0.5785541,
+      "formattedAddress": "15 Rue Vital Carles, 33000 Bordeaux, France",
+      "placeId": "ChIJD442vdwnVQ0R-YFkH5TFppM"
+    },
+    "chez coco": {
+      "lat": 41.3931985,
+      "lng": 2.1472863,
+      "formattedAddress": "Av. Diagonal, 465, L'Eixample, 08036 Barcelona, Spain",
+      "placeId": "ChIJtX9GA52ipBIRq47Zgzo-mGA"
+    },
+    "gelateria boulevard": {
+      "lat": 43.3225619,
+      "lng": -1.9838896,
+      "formattedAddress": "Alameda del Blvd., 10, 20003 Donostia / San Sebastián, Guipúzcoa, Spain",
+      "placeId": "ChIJmwNx8E2lUQ0R74vSlwOStUg"
+    },
+    "la oveja latxa": {
+      "lat": 43.3231498,
+      "lng": -1.985302,
+      "formattedAddress": "Calle, Fermin Calbeton Kalea, 34, 20003 Donostia / San Sebastián, Gipuzkoa, Spain",
+      "placeId": "ChIJU6TswIzJUQ0RhzDER7IQTHc"
+    },
+    "harrods": {
+      "lat": 51.49940549999999,
+      "lng": -0.1632344,
+      "formattedAddress": "87-135 Brompton Rd, London SW1X 7XL, UK",
+      "placeId": "ChIJ_zAq7TgFdkgRQg1OSw1j7hU"
+    },
+    "musée d'histoire naturelle de londres": {
+      "lat": 51.49671499999999,
+      "lng": -0.1763672,
+      "formattedAddress": "Cromwell Rd, South Kensington, London SW7 5BD, UK",
+      "placeId": "ChIJPy8Y5kIFdkgRxGSXw4Xjt3s"
+    },
+    "camden market": {
+      "lat": 51.5412554,
+      "lng": -0.1450175,
+      "formattedAddress": "Camden Lock Pl, London NW1 8AF, UK",
+      "placeId": "ChIJE3CeAlwbdkgR7cSizDf8Mh8"
+    },
+    "soho": {
+      "lat": 51.5136143,
+      "lng": -0.1365486,
+      "formattedAddress": "Soho, London, UK",
+      "placeId": "ChIJm39Ln9QEdkgR0l1-U8xXTuQ"
+    },
+    "carnaby st": {
+      "lat": 51.5131862,
+      "lng": -0.1388548,
+      "formattedAddress": "Carnaby St, Carnaby, London W1F, UK",
+      "placeId": "ChIJhYw3EdUEdkgRYaGKThvmX9o"
+    },
+    "palais de buckingham": {
+      "lat": 51.501364,
+      "lng": -0.14189,
+      "formattedAddress": "London SW1A 1AA, UK",
+      "placeId": "ChIJtV5bzSAFdkgRpwLZFPWrJgo"
+    },
+    "piccadilly circus": {
+      "lat": 51.5098597,
+      "lng": -0.1342809,
+      "formattedAddress": "Piccadilly Circus, London, UK",
+      "placeId": "ChIJwR8g_9MEdkgR_rI--wzfivA"
+    },
+    "abbaye de westminster": {
+      "lat": 51.4993695,
+      "lng": -0.1272993,
+      "formattedAddress": "Dean's Yard, London SW1P 3PA, UK",
+      "placeId": "ChIJLzVDusQEdkgRelObBaL_jto"
+    },
+    "big ben": {
+      "lat": 51.50072919999999,
+      "lng": -0.1246254,
+      "formattedAddress": "London SW1A 0AA, UK",
+      "placeId": "ChIJ2dGMjMMEdkgRqVqkuXQkj7c"
+    },
+    "covent garden": {
+      "lat": 51.5116571,
+      "lng": -0.1240436,
+      "formattedAddress": "Covent Garden, London, UK",
+      "placeId": "ChIJs4GOh8sEdkgRRiBFZKMP8ZE"
+    },
+    "trafalgar square": {
+      "lat": 51.508039,
+      "lng": -0.128069,
+      "formattedAddress": "Trafalgar Sq, London WC2N 5DS, UK",
+      "placeId": "ChIJH-tBOc4EdkgRJ8aJ8P1CUxo"
+    },
+    "30 st mary axe": {
+      "lat": 51.5144983,
+      "lng": -0.0802416,
+      "formattedAddress": "30 St Mary Axe, London EC3A 8BF, UK",
+      "placeId": "ChIJqR7TME0DdkgRxplj_CKMkG0"
+    },
+    "sky garden": {
+      "lat": 51.5112422,
+      "lng": -0.08354929999999999,
+      "formattedAddress": "1, Sky Garden, Sky Garden Walk, London EC3M 8AF, UK",
+      "placeId": "ChIJgaI8bFIDdkgRhJJqLMxsFdU"
+    },
+    "tower bridge": {
+      "lat": 51.5054564,
+      "lng": -0.07535649999999999,
+      "formattedAddress": "Tower Bridge, Tower Bridge Rd, London SE1 2UP, UK",
+      "placeId": "ChIJSdtli0MDdkgRLW9aCBpCeJ4"
+    },
+    "port-cros": {
+      "lat": 43.0035949,
+      "lng": 6.3944268,
+      "formattedAddress": "Port-Cros, Hyères, France",
+      "placeId": "ChIJ0Uo64aQqyRIROzlZGfXBlmE"
+    },
+    "plage de la capte": {
+      "lat": 43.0631116,
+      "lng": 6.150284399999999,
+      "formattedAddress": "Trav. de l'Arrogante, 83400 Hyères, France",
+      "placeId": "ChIJ9eE6iTQhyRIR5SRAEHgc4rE"
+    },
+    "parc national de port-cros et porquerolles": {
+      "lat": 43.1211821,
+      "lng": 6.1250124,
+      "formattedAddress": "Port-Cros et Porquerolles National Park, 181 All. Cst Sainte-Claire, 83406 Hyères, France",
+      "placeId": "ChIJLYid96MjyRIRm_lp3Xd8_Ho"
+    },
+    "point de vue au-dessus de la calanque de l'indienne": {
+      "lat": 42.985167,
+      "lng": 6.208403,
+      "formattedAddress": "Calanque de L'Indienne, 83400, 83400 Hyères, France",
+      "placeId": "ChIJdTV4YgDZyBIRH-UKdy6eVGk"
+    },
+    "plage notre dame": {
+      "lat": 43.0136432,
+      "lng": 6.2356865,
+      "formattedAddress": "Plage Notre Dame, France",
+      "placeId": "ChIJHT6zdfwnyRIRlVh0u6dE-j0"
+    },
+    "parc saint-bernard": {
+      "lat": 43.1237046,
+      "lng": 6.127152799999999,
+      "formattedAddress": "Parc Saint-Bernard, Mnt de Noailles, 83400 Hyères, France",
+      "placeId": "ChIJsXDxEaEjyRIRL9Lp3JNUTzY"
+    },
+    "château d'hyères": {
+      "lat": 43.1246715,
+      "lng": 6.1250882,
+      "formattedAddress": "433 Rue St Pierre, 83400 Hyères, France",
+      "placeId": "ChIJdXRp36YjyRIRQ0swbFcjLWs"
+    },
+    "plage du lavandou": {
+      "lat": 43.1311897,
+      "lng": 6.3647521,
+      "formattedAddress": "Plage du Lavandou, France",
+      "placeId": "ChIJWdcCeKAtyRIRJ8_wk82c-1I"
+    },
+    "bormes-les-mimosas": {
+      "lat": 43.15186,
+      "lng": 6.3434127,
+      "formattedAddress": "83230 Bormes-les-Mimosas, France",
+      "placeId": "ChIJtYKbKPUtyRIRdA7x84sD0uw"
+    },
+    "la vague": {
+      "lat": 43.0804975,
+      "lng": -6.1531532,
+      "formattedAddress": "83400 Hyères",
+      "placeId": "ChIJ3wglvVXJeUgRYi5s0e5sGo8"
+    },
+    "plage des darboussières": {
+      "lat": 43.0352359,
+      "lng": 6.112623699999999,
+      "formattedAddress": "547 Chem. de la Table Ronde, 83400 Hyères, France",
+      "placeId": "ChIJNTwJxfUgyRIRt4jVq3ADA64"
+    },
+    "sentier littoral giens": {
+      "lat": 43.0400382,
+      "lng": 6.1039165,
+      "formattedAddress": "Sentier littoral Giens, 12 All. des Asphodèles, 83400 Hyères, France",
+      "placeId": "ChIJwTMDNgAhyRIRoqDTiEu-kKw"
+    },
+    "galle": {
+      "lat": 6.032894799999999,
+      "lng": 80.2167912,
+      "formattedAddress": "Galle, Sri Lanka",
+      "placeId": "ChIJ4_wyabtz4ToRA0zG-QO5NUo"
+    },
+    "galle dutch fort": {
+      "lat": 6.0304592,
+      "lng": 80.2150207,
+      "formattedAddress": "Galle 80000, Sri Lanka",
+      "placeId": "ChIJXQLueKNz4ToR_sMWrhaKb7k"
+    },
+    "tuana mirissa": {
+      "lat": 5.9459813,
+      "lng": 80.4592456,
+      "formattedAddress": "The Tuana Galle Road, Udupila Road, Mirissa 81740, Sri Lanka",
+      "placeId": "ChIJH_2nbQA_4ToRnv3rBdRErvI"
+    },
+    "be cool surf-weligama": {
+      "lat": 5.9726384,
+      "lng": 80.43454469999999,
+      "formattedAddress": "Be Cools Surf, Beach Road, Weligama 81700, Sri Lanka",
+      "placeId": "ChIJ1yk81jsV4ToRtEIoLewpHT8"
+    },
+    "weligama": {
+      "lat": 5.973710899999999,
+      "lng": 80.4293545,
+      "formattedAddress": "Weligama, Sri Lanka",
+      "placeId": "ChIJ-erDfDcV4ToRQ5KYLU8VYyQ"
+    },
+    "shady lane mirissa": {
+      "lat": 5.9478868,
+      "lng": 80.4581777,
+      "formattedAddress": "Diyagalana Road Yatipila Mirissa, Mirissa 81740, Sri Lanka",
+      "placeId": "ChIJSSBRKNQ_4ToRAu2JFUmcU_Q"
+    },
+    "coconut tree hill": {
+      "lat": 5.9392353,
+      "lng": 80.46824199999999,
+      "formattedAddress": "Mirissa, Sri Lanka",
+      "placeId": "ChIJa4TASzI-4ToRz-2NutyMdTU"
+    },
+    "parrot rock": {
+      "lat": 5.9414224,
+      "lng": 80.4622485,
+      "formattedAddress": "WFR6+HV9, Mirissa, Sri Lanka",
+      "placeId": "ChIJ-9Qtwiw-4ToRcBALHNdUSVo"
+    },
+    "parc national de yala": {
+      "lat": 6.463961299999999,
+      "lng": 81.47188469999999,
+      "formattedAddress": "Yala National Park, Sri Lanka",
+      "placeId": "ChIJWZP7L6bT5ToRFDNaC9cjtjs"
+    },
+    "mirissa": {
+      "lat": 5.948262,
+      "lng": 80.4715866,
+      "formattedAddress": "Mirissa, Sri Lanka",
+      "placeId": "ChIJWdx3Mc4_4ToRkJzcNoun2KI"
+    },
+    "ella rock trailhead": {
+      "lat": 6.857849099999999,
+      "lng": 81.04402259999999,
+      "formattedAddress": "V25V+4JJ Ella Rock Trailhead, Unnamed Road, Ella, Sri Lanka",
+      "placeId": "ChIJnWx4AZhl5DoRrzo0tVTuyJw"
+    },
+    "little adam's peak": {
+      "lat": 6.8651291,
+      "lng": 81.06307799999999,
+      "formattedAddress": "Little Adam's Peak, Sri Lanka",
+      "placeId": "ChIJO9eppsRl5DoRFtLkLnZEP0k"
+    },
+    "lipton's seat": {
+      "lat": 6.780655899999999,
+      "lng": 81.0155175,
+      "formattedAddress": "Q2J8+766 Dambethenna Estate, Lipton Seat Rd, Haputale, Sri Lanka",
+      "placeId": "ChIJr5MIAzRu5DoRa0f3r08Rhjg"
+    },
+    "nine arches bridge viewpoint": {
+      "lat": 6.8774808,
+      "lng": 81.0601658,
+      "formattedAddress": "V3G6+X3, Ambagollapathana, Sri Lanka",
+      "placeId": "ChIJZXfiMH1l5DoRYbqmKfh38wg"
+    },
+    "nine arches bridge": {
+      "lat": 6.8768151,
+      "lng": 81.0608465,
+      "formattedAddress": "Nine Arches Bridge, Ella, Sri Lanka",
+      "placeId": "ChIJ6zxrTsxl5DoRWAUoTnT9-HE"
+    },
+    "kandy": {
+      "lat": 7.2905715,
+      "lng": 80.6337262,
+      "formattedAddress": "Kandy, Sri Lanka",
+      "placeId": "ChIJ06yYZCZm4zoRNTzgoRg4GkE"
+    },
+    "sacred city of kandy": {
+      "lat": 7.293588,
+      "lng": 80.6413164,
+      "formattedAddress": "7JVR+CGP, Kandy, Sri Lanka",
+      "placeId": "ChIJs81gTyxm4zoROFB_w3NwPOg"
+    },
+    "pidurangala rock": {
+      "lat": 7.966388599999999,
+      "lng": 80.7618379,
+      "formattedAddress": "Sigiriya, Sri Lanka",
+      "placeId": "ChIJM0VyZR-h_DoRC0mr-JPMcpM"
+    },
+    "sigiriya lion rock": {
+      "lat": 7.9571127,
+      "lng": 80.760257,
+      "formattedAddress": "XQ46+R46, Sigiriya, Sri Lanka",
+      "placeId": "ChIJMefAImSh_DoRHMwUFvB6j-k"
+    },
+    "alexanderplatz": {
+      "lat": 52.52198139999999,
+      "lng": 13.413306,
+      "formattedAddress": "10178 Berlin, Germany",
+      "placeId": "ChIJbygR2x5OqEcRbhbkZsMB_DA"
+    },
+    "hôtel rochechouart": {
+      "lat": 48.8820106,
+      "lng": 2.3409281,
+      "formattedAddress": "55 Blvd Marguerite de Rochechouart, 75009 Paris, France",
+      "placeId": "ChIJN4G4B0Ru5kcRd0XEgWuS5AA"
+    },
+    "mnt de la grande-côte": {
+      "lat": 45.771062,
+      "lng": 4.8316021,
+      "formattedAddress": "Mnt de la Grande-Côte, 69001 Lyon, France",
+      "placeId": "ChIJlXv8nv3q9EcRPVZ_88lpyWc"
+    },
+    "traboule et cour des voraces": {
+      "lat": 45.7719444,
+      "lng": 4.8347222,
+      "formattedAddress": "9 Pl. Colbert, 69001 Lyon, France",
+      "placeId": "ChIJx1OV6_zq9EcRohUc0Ld-E7o"
+    },
+    "fresque des lyonnais": {
+      "lat": 45.7680876,
+      "lng": 4.8280425,
+      "formattedAddress": "2 Rue de la Martinière, 69001 Lyon, France",
+      "placeId": "ChIJlbZLmgHr9EcRaVkX1pfJMt4"
+    },
+    "musée cinéma et miniature": {
+      "lat": 45.7619231,
+      "lng": 4.8271497,
+      "formattedAddress": "60 Rue Saint-Jean, 69005 Lyon, France",
+      "placeId": "ChIJ7-V74qrr9EcReweyBTQBAOM"
+    },
+    "mur des canuts": {
+      "lat": 45.7779683,
+      "lng": 4.8279781,
+      "formattedAddress": "36 Bd des Canuts, 69004 Lyon, France",
+      "placeId": "ChIJAeNbJBzr9EcRk8M_tMV1AW4"
+    },
+    "parc de la tête d'or": {
+      "lat": 45.7755975,
+      "lng": 4.8504688,
+      "formattedAddress": "Parc de la Tête d'Or, Boulevard des Belges, 69006 Lyon, France",
+      "placeId": "ChIJRSpfGOvq9EcRPFTYvmRr9Q4"
+    },
+    "place bellecour": {
+      "lat": 45.757746,
+      "lng": 4.832148399999999,
+      "formattedAddress": "Place Bellecour, Pl. Bellecour, 69002 Lyon, France",
+      "placeId": "ChIJs1rce1Pq9EcRRyCL9YWTnV0"
+    },
+    "place des jacobins": {
+      "lat": 47.2158143,
+      "lng": -1.5514527,
+      "formattedAddress": "Pl. des Jacobins, 44000 Nantes, France",
+      "placeId": "ChIJ2YsTHKXuBUgRsmH2D61OWD4"
+    },
+    "musée des beaux-arts de lyon": {
+      "lat": 45.7671937,
+      "lng": 4.833565999999999,
+      "formattedAddress": "20 Pl. des Terreaux, 69001 Lyon, France",
+      "placeId": "ChIJUXR07v7q9EcRb36T44_nghc"
+    },
+    "hôtel de ville de lyon": {
+      "lat": 45.7676027,
+      "lng": 4.8344021,
+      "formattedAddress": "1 Pl. de la Comédie, 69001 Lyon, France",
+      "placeId": "ChIJCw23Okfq9EcRkVQEbal_LXE"
+    },
+    "les traboules du vieux lyon": {
+      "lat": 45.7627528,
+      "lng": 4.8277855,
+      "formattedAddress": "Rue Saint-Jean, 69005 Lyon, France",
+      "placeId": "ChIJd4uoxojr9EcRhSpXQ3INlVI"
+    },
+    "cathédrale saint-jean-baptiste": {
+      "lat": 45.760952,
+      "lng": 4.8269788,
+      "formattedAddress": "Pl. Saint-Jean, 69005 Lyon, France",
+      "placeId": "ChIJjyI4Eavr9EcRKEdGOieOt-0"
+    },
+    "théâtre gallo romain": {
+      "lat": 45.7597309,
+      "lng": 4.8201098,
+      "formattedAddress": "17 Rue Cleberg, 69005 Lyon, France",
+      "placeId": "ChIJKW5Swajr9EcRQ2EpEHMgeIY"
+    },
+    "basilique notre-dame de fourvière": {
+      "lat": 45.7622698,
+      "lng": 4.822638,
+      "formattedAddress": "8 Pl. de Fourvière, 69005 Lyon, France",
+      "placeId": "ChIJK1Jxdanr9EcRKY5nG3nMG50"
+    },
+    "museum island": {
+      "lat": 52.5169328,
+      "lng": 13.4018996,
+      "formattedAddress": "Museum Island, 10 Berlin, Germany",
+      "placeId": "ChIJx8qLPN9RqEcRB2gSnmw5bJM"
+    },
+    "east side gallery": {
+      "lat": 52.50502239999999,
+      "lng": 13.4396953,
+      "formattedAddress": "Mühlenstraße, 10243 Berlin, Germany",
+      "placeId": "ChIJS6_t9aZHqEcRGCiRSnvpm94"
+    },
+    "checkpoint charlie": {
+      "lat": 52.5074434,
+      "lng": 13.3903913,
+      "formattedAddress": "Friedrichstraße 43-45, 10117 Berlin, Germany",
+      "placeId": "ChIJzdgmXNFRqEcRyIl9R0IApSM"
+    },
+    "potsdamer platz": {
+      "lat": 52.5092312,
+      "lng": 13.3761053,
+      "formattedAddress": "Potsdamer Platz, 10785 Berlin, Germany",
+      "placeId": "ChIJIeqReMlRqEcRquFNJTyYoUw"
+    },
+    "deutsche kinemathek": {
+      "lat": 52.5086083,
+      "lng": 13.3871508,
+      "formattedAddress": "Mauerstraße 79, 10117 Berlin, Germany",
+      "placeId": "ChIJu8Mam8lRqEcRFAcXScV35RY"
+    },
+    "unter den linden": {
+      "lat": 52.5168975,
+      "lng": 13.3892254,
+      "formattedAddress": "Unter den Linden, 10117 Berlin, Germany",
+      "placeId": "ChIJ3xSGsMRRqEcR6R-POigsWW8"
+    },
+    "brandenburg gate": {
+      "lat": 52.5162746,
+      "lng": 13.377704,
+      "formattedAddress": "Pariser Platz, 10117 Berlin, Germany",
+      "placeId": "ChIJiQnyVcZRqEcRY0xnhE77uyY"
+    },
+    "reichstag building": {
+      "lat": 52.5186202,
+      "lng": 13.3761871,
+      "formattedAddress": "Platz der Republik 1, 11011 Berlin, Germany",
+      "placeId": "ChIJbVDuQcdRqEcR5X3xq9NSG2Q"
+    },
+    "memorial to the murdered jews of europe": {
+      "lat": 52.5139474,
+      "lng": 13.3787126,
+      "formattedAddress": "Cora-Berliner-Straße 1, 10117 Berlin, Germany",
+      "placeId": "ChIJW2oZB8ZRqEcRyFvuEpCnNBQ"
+    },
+    "topography of terror": {
+      "lat": 52.506747,
+      "lng": 13.3837099,
+      "formattedAddress": "Niederkirchnerstraße 8, 10963 Berlin, Germany",
+      "placeId": "ChIJx3iXOMxRqEcRSGbJBczVSzc"
+    },
+    "vasa museum": {
+      "lat": 59.3280233,
+      "lng": 18.0913964,
+      "formattedAddress": "Galärvarvsvägen 14, 115 21 Stockholm, Sweden",
+      "placeId": "ChIJrymDbVSdX0YRQTLBtPGa8M8"
+    },
+    "skinnarviksberget": {
+      "lat": 59.31996649999999,
+      "lng": 18.0507276,
+      "formattedAddress": "Stockholm, 118 23 Stockholm, Sweden",
+      "placeId": "ChIJt-jQed13X0YR7hcj-9iP9mM"
+    },
+    "södermalm": {
+      "lat": 59.31252679999999,
+      "lng": 18.0616188,
+      "formattedAddress": "Södermalm, Stockholm, Sweden",
+      "placeId": "ChIJc6euFuV3X0YRQmY6ng8b2Ho"
+    },
+    "danderydsgatan": {
+      "lat": 59.3438401,
+      "lng": 18.0703888,
+      "formattedAddress": "Danderydsgatan, Stockholm, Sweden",
+      "placeId": "ChIJMcpSAkKdX0YR7oEAf-7IpIU"
+    },
+    "engelbrektsgatan": {
+      "lat": 59.3412422,
+      "lng": 18.0703979,
+      "formattedAddress": "Engelbrektsgatan, Stockholm, Sweden",
+      "placeId": "ChIJR14pWEKdX0YRmaPLFHa_uIg"
+    },
+    "gamla stan": {
+      "lat": 59.3256954,
+      "lng": 18.0718675,
+      "formattedAddress": "Gamla stan, Södermalm, Stockholm, Sweden",
+      "placeId": "ChIJK_mfZuJ3X0YREYsWNfT-ACY"
+    },
+    "norrbro": {
+      "lat": 55.69432699999999,
+      "lng": 12.5488425,
+      "formattedAddress": "Nørrebro, Copenhagen, Denmark",
+      "placeId": "ChIJZ7zZTlNSUkYRyLDqc9LDb8U"
+    },
+    "the royal palace": {
+      "lat": 59.3268215,
+      "lng": 18.0717194,
+      "formattedAddress": "Kungliga slottet, 107 70 Stockholm, Sweden",
+      "placeId": "ChIJAUpMflidX0YRNj52SJZ6-b0"
+    },
+    "fargegaten": {
+      "lat": 58.97268829999999,
+      "lng": 5.7331278,
+      "formattedAddress": "Øvre Holmegate 32, 4006 Stavanger, Norway",
+      "placeId": "ChIJDyhiEUo1OkYRZS9ICqFksSQ"
+    },
+    "gamle stavanger": {
+      "lat": 58.97179749999999,
+      "lng": 5.7260636,
+      "formattedAddress": "Øvre Strandgate, 4005 Stavanger, Norway",
+      "placeId": "ChIJF3PsrE41OkYRF6Bl_K5oZAw"
+    },
+    "øvre holmegate": {
+      "lat": 58.9727257,
+      "lng": 5.731934,
+      "formattedAddress": "Øvre Holmegate, 4006 Stavanger, Norway",
+      "placeId": "ChIJu58HOko1OkYRKyd0bz3TDuQ"
+    },
+    "pulpit rock": {
+      "lat": 58.98641,
+      "lng": 6.190439599999999,
+      "formattedAddress": "Pulpit Rock, Strand, Norway",
+      "placeId": "ChIJCetU9hvVO0YRi7ejv73mg0o"
+    },
+    "gorges du verdon": {
+      "lat": 43.7613593,
+      "lng": 6.3788372,
+      "formattedAddress": "Verdon Gorge, France",
+      "placeId": "ChIJfbkvB735yxIRCeXMqWH0znQ"
+    },
+    "parc national manuel-antonio": {
+      "lat": 9.392308,
+      "lng": -84.1369879,
+      "formattedAddress": "Manuel Antonio National Park, Provincia de Puntarenas, Quepos, Costa Rica",
+      "placeId": "ChIJS_Wpm5xxoY8Rhkpczjlh5pU"
+    },
+    "cité des sciences et de l'industrie": {
+      "lat": 48.8955948,
+      "lng": 2.3878996,
+      "formattedAddress": "30 Av. Corentin Cariou, 75019 Paris, France",
+      "placeId": "ChIJD6qS3zJs5kcRJ8_ebdhX0VI"
+    },
+    "église de notre-sauveur": {
+      "lat": 55.6729387,
+      "lng": 12.5942102,
+      "formattedAddress": "Sankt Annæ Gade 29, 1416 København, Denmark",
+      "placeId": "ChIJye06RjlTUkYRK7RPt-oBGME"
+    },
+    "bakken": {
+      "lat": 55.77468529999999,
+      "lng": 12.5772659,
+      "formattedAddress": "Dyrehavsbakken 207, 2930 Klampenborg, Denmark",
+      "placeId": "ChIJQ2EHr7FNUkYR6MySpNSMlls"
+    },
+    "café husaren - home of hagabullen": {
+      "lat": 57.6984317,
+      "lng": 11.9599125,
+      "formattedAddress": "Haga Nygata 28, 411 22 Göteborg, Sweden",
+      "placeId": "ChIJN1X9XWnzT0YRPVe3SVoyY8Q"
+    },
+    "møllergata 19": {
+      "lat": 59.91530820000001,
+      "lng": 10.74795,
+      "formattedAddress": "Møllergata 19, 0179 Oslo, Norway",
+      "placeId": "ChIJsZipq2NuQUYRa9CndrwBpO8"
+    },
+    "bjørvika": {
+      "lat": 59.9039865,
+      "lng": 10.7581299,
+      "formattedAddress": "Bjørvika, Oslo, Norway",
+      "placeId": "ChIJh2g_HItuQUYROtLJs2wBSrQ"
+    },
+    "palais royal d'oslo": {
+      "lat": 59.917148,
+      "lng": 10.7275613,
+      "formattedAddress": "Slottsplassen 1, 0010 Oslo, Norway",
+      "placeId": "ChIJezW6eddtQUYRHFnCrMk4cGc"
+    },
+    "ulriken": {
+      "lat": 60.3774863,
+      "lng": 5.3869521,
+      "formattedAddress": "Ulriken, Bergen, Norway",
+      "placeId": "ChIJnTN_-Cr5PEYRNDSLZWEXOYQ"
+    },
+    "fløyen": {
+      "lat": 60.3805273,
+      "lng": 5.3598855,
+      "formattedAddress": "Fløen, Norway",
+      "placeId": "ChIJI1M-z0r5PEYRD_dHJEZ4_j0"
+    },
+    "amalienborg palace": {
+      "lat": 55.6840588,
+      "lng": 12.5930201,
+      "formattedAddress": "Amalienborg Slotsplads, 1257 København K, Denmark",
+      "placeId": "ChIJcwY-NiJTUkYRP1UVnat_8Vw"
+    },
+    "freetown christiania": {
+      "lat": 55.67341200000001,
+      "lng": 12.5964061,
+      "formattedAddress": "Freetown Christiania, Copenhagen Municipality, Denmark",
+      "placeId": "ChIJpz3tBzlTUkYRuSiVCeI9GK4"
+    },
+    "speicherstadt": {
+      "lat": 53.5450204,
+      "lng": 9.996782999999999,
+      "formattedAddress": "Speicherstadt, 20457 Hamburg, Germany",
+      "placeId": "ChIJ7aBJqgOPsUcRi5G5n3ppxzk"
+    },
+    "binnenalster": {
+      "lat": 53.55592290000001,
+      "lng": 9.9964683,
+      "formattedAddress": "Binnenalster, 20354 Hamburg, Germany",
+      "placeId": "ChIJGbNkeeKOsUcR3rz455EYU2c"
+    },
+    "spielplatz planten un blomen große wallanlagen": {
+      "lat": 53.5544985,
+      "lng": 9.9746083,
+      "formattedAddress": "Glacischaussee 1, 20359 Hamburg, Germany",
+      "placeId": "ChIJG51sfhOPsUcRot4CQrtkhxw"
+    },
+    "mönckebergstraße": {
+      "lat": 53.5508341,
+      "lng": 9.9992364,
+      "formattedAddress": "Mönckebergstraße, 20095 Hamburg, Germany",
+      "placeId": "ChIJm_0yCuKOsUcRADxaT8hfcDM"
+    },
+    "elbphilharmonie hamburg": {
+      "lat": 53.5413305,
+      "lng": 9.9844647,
+      "formattedAddress": "Platz d. Deutschen Einheit 4, 20457 Hamburg, Germany",
+      "placeId": "ChIJT8RwZwaPsUcRhkKYaCqr5LI"
+    },
+    "halle saint-pierre": {
+      "lat": 48.88474670000001,
+      "lng": 2.3445132,
+      "formattedAddress": "2 Rue Ronsard, 75018 Paris, France",
+      "placeId": "ChIJNb_X40Ju5kcRIB28zs8-4NE"
+    },
+    "liberty island": {
+      "lat": 40.6895453,
+      "lng": -74.0449292,
+      "formattedAddress": "Liberty Island, New York, NY 10004, USA",
+      "placeId": "ChIJU9Xo0Y5QwokRbO3nMatPCHk"
+    },
+    "pont-aven": {
+      "lat": 47.8554896,
+      "lng": -3.7482712,
+      "formattedAddress": "29930 Pont-Aven, France",
+      "placeId": "ChIJyTWhDcLnEEgREGTlNs2lDAQ"
+    },
+    "taureau de wall street": {
+      "lat": 40.7055746,
+      "lng": -74.0134499,
+      "formattedAddress": "Bowling Green, New York, NY 10004, USA",
+      "placeId": "ChIJURWoF5pYwokRIfXv4To528c"
+    },
+    "ellis island national museum of immigration": {
+      "lat": 40.6992753,
+      "lng": -74.0394328,
+      "formattedAddress": "Ellis Is, Jersey City, NJ 07305, USA",
+      "placeId": "ChIJ3-0FiytRwokR7opvak3pfI8"
+    },
+    "statue de la liberté": {
+      "lat": 40.6892494,
+      "lng": -74.04450039999999,
+      "formattedAddress": "New York, NY 10004, USA",
+      "placeId": "ChIJPTacEpBQwokRKwIlDXelxkA"
+    },
+    "muséum américain d'histoire naturelle": {
+      "lat": 40.7813241,
+      "lng": -73.9739882,
+      "formattedAddress": "200 Central Prk W, New York, NY 10024, USA",
+      "placeId": "ChIJCXoPsPRYwokRsV1MYnKBfaI"
+    },
+    "museum of modern art": {
+      "lat": 40.7614327,
+      "lng": -73.97762159999999,
+      "formattedAddress": "11 W 53rd St, New York, NY 10019, USA",
+      "placeId": "ChIJKxDbe_lYwokRVf__s8CPn-o"
+    },
+    "times square": {
+      "lat": 40.7579747,
+      "lng": -73.9855426,
+      "formattedAddress": "Manhattan, NY 10036, USA",
+      "placeId": "ChIJmQJIxlVYwokRLgeuocVOGVU"
+    },
+    "bryant park": {
+      "lat": 40.7535367,
+      "lng": -73.9829529,
+      "formattedAddress": "Bryant Park, New York, NY 10018, USA",
+      "placeId": "ChIJvbGg56pZwokRp_E3JbivnLQ"
+    },
+    "empire state building": {
+      "lat": 40.7484405,
+      "lng": -73.98566439999999,
+      "formattedAddress": "20 W 34th St., New York, NY 10001, USA",
+      "placeId": "ChIJaXQRs6lZwokRY6EFpJnhNNE"
+    },
+    "madison square garden": {
+      "lat": 40.7505045,
+      "lng": -73.9934387,
+      "formattedAddress": "New York, NY 10001, USA",
+      "placeId": "ChIJhRwB-yFawokR5Phil-QQ3zM"
+    },
+    "high line": {
+      "lat": 40.7479925,
+      "lng": -74.0047649,
+      "formattedAddress": "The High Line, New York, NY 10011, USA",
+      "placeId": "ChIJ5bQPhMdZwokRkTwKhVxhP1g"
+    },
+    "chelsea market": {
+      "lat": 40.7424396,
+      "lng": -74.0061439,
+      "formattedAddress": "75 9th Ave, New York, NY 10011, USA",
+      "placeId": "ChIJw2lMFL9ZwokRosAtly52YX4"
+    },
+    "flatiron building": {
+      "lat": 40.7410605,
+      "lng": -73.9896986,
+      "formattedAddress": "175 5th Ave, New York, NY 10010, USA",
+      "placeId": "ChIJZx8c96NZwokRJklw7SVhKt4"
+    },
+    "little italy": {
+      "lat": 40.7191413,
+      "lng": -73.9973273,
+      "formattedAddress": "Little Italy, New York, NY 10013, USA",
+      "placeId": "ChIJ730FRYhZwokRhLS7n5Ybz54"
+    },
+    "chinatown": {
+      "lat": 40.7157509,
+      "lng": -73.9970307,
+      "formattedAddress": "Chinatown, New York, NY, USA",
+      "placeId": "ChIJDcEvbPVZwokRETEfzXATns8"
+    },
+    "mémorial du 11-septembre": {
+      "lat": 40.7115776,
+      "lng": -74.0133362,
+      "formattedAddress": "9/11 Memorial & Museum, 180 Greenwich St, New York, NY 10007, USA",
+      "placeId": "ChIJRcvoOxpawokR7R4dQMXMMPQ"
+    },
+    "wall st": {
+      "lat": 40.7060675,
+      "lng": -74.0089046,
+      "formattedAddress": "Wall St, New York, NY, USA",
+      "placeId": "ChIJq8ztWxZawokRAa61A_Ddsiw"
+    },
+    "pier 17": {
+      "lat": 40.705573,
+      "lng": -74.00145669999999,
+      "formattedAddress": "89 South St, New York, NY 10038, USA",
+      "placeId": "ChIJR1pTRTxawokRyzoX5XQ_alI"
+    },
+    "pont de brooklyn": {
+      "lat": 40.7060855,
+      "lng": -73.9968643,
+      "formattedAddress": "Brooklyn Bridge, New York, NY 10038, USA",
+      "placeId": "ChIJK3vOQyNawokRXEa9errdJiU"
+    },
+    "dumbo": {
+      "lat": 40.7033164,
+      "lng": -73.9881451,
+      "formattedAddress": "Dumbo, Brooklyn, NY 11201, USA",
+      "placeId": "ChIJ-7A-bzFawokRw8mvHCzZsc4"
+    },
+    "el salto - río fortuna": {
+      "lat": 10.4578338,
+      "lng": -84.6428803,
+      "formattedAddress": "Río, F954+4RQ, Provincia de Alajuela, La Fortuna, Costa Rica",
+      "placeId": "ChIJQ0CvC_QMoI8RqcK83q3iJbA"
+    },
+    "monteverde cloud forest biological preserve": {
+      "lat": 10.2989417,
+      "lng": -84.7681559,
+      "formattedAddress": "Monteverde Cloud Forest Biological Preserve, Provincia de Puntarenas, Monteverde, Costa Rica",
+      "placeId": "ChIJzxHsVYcZoI8RZs7pnue4L68"
+    },
+    "rio celeste y los teñideros": {
+      "lat": 10.7156715,
+      "lng": -84.9872725,
+      "formattedAddress": "P287+739, Provincia de Alajuela, Cantón de, Costa Rica",
+      "placeId": "ChIJp4kBEZtUdY8R8G7pxXaaFjA"
+    },
+    "parc national volcán arenal": {
+      "lat": 10.4612136,
+      "lng": -84.72814869999999,
+      "formattedAddress": "F76C+FPQ Parque Nacional Volcán Arenal, Provincia de Alajuela, El Castillo, Fortuna, Costa Rica",
+      "placeId": "ChIJERG1K5YOoI8Rz_7NjsbYYhA"
+    },
+    "arenal volcano view and lava trails": {
+      "lat": 10.4662751,
+      "lng": -84.7365904,
+      "formattedAddress": "Arenal Volcano View and Lava Trails, La Fortuna - El Castillo, Provincia de Alajuela, San Carlos, 21007, Costa Rica",
+      "placeId": "ChIJQyYpgSEPoI8RTCT9HuQ4GqU"
+    },
+    "el choyin": {
+      "lat": 10.4885115,
+      "lng": -84.7235614,
+      "formattedAddress": "F7QG+CH4, Alajuela Province, La Fortuna, Costa Rica",
+      "placeId": "ChIJCTaeAS0JoI8RQp53qMl699Y"
+    },
+    "pl. reial": {
+      "lat": 41.380052,
+      "lng": 2.1752743,
+      "formattedAddress": "Pl. Reial, Ciutat Vella, 08002 Barcelona, Spain",
+      "placeId": "ChIJJ86B5VeipBIRZnGoGQns3JA"
+    },
+    "montjuïc": {
+      "lat": 41.3663327,
+      "lng": 2.1567893,
+      "formattedAddress": "Montjuïc, Sants-Montjuïc, Barcelona, Spain",
+      "placeId": "ChIJbwp7V2yipBIREHarAINYQxw"
+    },
+    "la estrella herida": {
+      "lat": 41.3765161,
+      "lng": 2.1910945,
+      "formattedAddress": "Pg. Marítim de la Barceloneta, s/n, Ciutat Vella, 08003 Barcelona, Spain",
+      "placeId": "ChIJ02vWigejpBIRnznTfjtQrt4"
+    },
+    "la rambla": {
+      "lat": 41.3856087,
+      "lng": 2.1698166,
+      "formattedAddress": "La Rambla, Barcelona, Spain",
+      "placeId": "ChIJyRQXCFiipBIRxL1CiKz3viQ"
+    },
+    "arenas mall": {
+      "lat": 41.3763031,
+      "lng": 2.1493855,
+      "formattedAddress": "Gran Via de les Corts Catalanes, 385, L'Eixample, 08015 Barcelona, Spain",
+      "placeId": "ChIJcRlVRnmipBIR3UXxKlCKBSQ"
+    },
+    "parc de la ciutadella": {
+      "lat": 41.388123,
+      "lng": 2.1860152,
+      "formattedAddress": "Ciutadella Park, Passeig de Picasso, 21, Ciutat Vella, 08003 Barcelona, Spain",
+      "placeId": "ChIJ4QmWQ_2ipBIRcD1a5hhhOEI"
+    },
+    "santa caterina market": {
+      "lat": 41.38636109999999,
+      "lng": 2.1781566,
+      "formattedAddress": "Av. de Francesc Cambó, 16, Ciutat Vella, 08003 Barcelona, Spain",
+      "placeId": "ChIJyTz8wvuipBIRfmWLwQzVTc8"
+    },
+    "casa batlló": {
+      "lat": 41.3917,
+      "lng": 2.164918,
+      "formattedAddress": "Pg. de Gràcia, 43, L'Eixample, 08007 Barcelona, Spain",
+      "placeId": "ChIJYUFLSe2ipBIRD04uni940kA"
+    },
+    "sagrada família": {
+      "lat": 41.4036299,
+      "lng": 2.1743558,
+      "formattedAddress": "Carrer de Mallorca, 401, L'Eixample, 08013 Barcelona, Spain",
+      "placeId": "ChIJk_s92NyipBIRUMnDG8Kq2Js"
+    },
+    "parc güell": {
+      "lat": 41.4144948,
+      "lng": 2.1526945,
+      "formattedAddress": "Park Güell, Gràcia, 08024 Barcelona, Spain",
+      "placeId": "ChIJq0HUUq6ipBIRWM6qGqALmok"
+    },
+    "parc du labyrinthe d'horta": {
+      "lat": 41.4399698,
+      "lng": 2.1455713,
+      "formattedAddress": "Parc del Laberint d'Horta, Passeig dels Castanyers, 1, Horta-Guinardó, 08035 Barcelona, Spain",
+      "placeId": "ChIJ1Xj8vF-9pBIRAyIuSGQxzd0"
+    },
+    "sémaphore de sète": {
+      "lat": 43.3970317,
+      "lng": 3.692386999999999,
+      "formattedAddress": "34200 Sète, France",
+      "placeId": "ChIJBSf-gjE1sRIRZvx0Rp4BYWs"
+    },
+    "plage de la corniche": {
+      "lat": 43.3935125,
+      "lng": 3.667077299999999,
+      "formattedAddress": "Plage de la Corniche, France",
+      "placeId": "ChIJvZnp1NY1sRIRgZbNvVkbiaY"
+    },
+    "place de la comédie": {
+      "lat": 43.6084213,
+      "lng": 3.8799107,
+      "formattedAddress": "Pl. de la Comédie, 34000 Montpellier, France",
+      "placeId": "ChIJ7blkPKevthIR6H5pHjUvWao"
+    },
+    "place de la canourgue": {
+      "lat": 43.6117429,
+      "lng": 3.874551499999999,
+      "formattedAddress": "Place de La Canourgue, 1 Pl. de la Canourgue, 34000 Montpellier, France",
+      "placeId": "ChIJuYZYxAevthIRH0Mhf-Kc_9o"
+    },
+    "arc de triomphe": {
+      "lat": 48.8737917,
+      "lng": 2.2950275,
+      "formattedAddress": "Pl. Charles de Gaulle, 75008 Paris, France",
+      "placeId": "ChIJjx37cOxv5kcRPWQuEW5ntdk"
+    },
+    "aqueduc saint-clément": {
+      "lat": 43.6113936,
+      "lng": 3.8688096,
+      "formattedAddress": "Aqueduc des Arceaux, 155 Rue Hilaire Ricard 85, 34000 Montpellier, France",
+      "placeId": "ChIJw862kQCvthIRY672bvA2ucw"
+    },
+    "le vieux port": {
+      "lat": 49.4326874,
+      "lng": -2.3704112,
+      "formattedAddress": "Le Vieux Port, Guernsey GY10, Guernsey",
+      "placeId": "ChIJm0nUAtgODUgRo-JPdJ3pGEM"
+    },
+    "atomium": {
+      "lat": 50.8948787,
+      "lng": 4.3415547,
+      "formattedAddress": "Pl. de l'Atomium 1, 1020 Bruxelles, Belgium",
+      "placeId": "ChIJAQAAAKzDw0cRCTemaB0Hk1I"
+    },
+    "quartier royal": {
+      "lat": 50.8454972,
+      "lng": 4.3617333,
+      "formattedAddress": "Quartier Royal, 1000 Bruxelles, Belgium",
+      "placeId": "ChIJ7zT1c4HEw0cRsPj8CEBF5Ow"
+    },
+    "micalet": {
+      "lat": 39.4753233,
+      "lng": -0.3756313,
+      "formattedAddress": "Pça. de la Reina, s/n, Ciutat Vella, 46001 València, Valencia, Spain",
+      "placeId": "ChIJ5X0ZX01PYA0RhTSLgzjjY_M"
+    },
+    "loge de la soie": {
+      "lat": 39.4743857,
+      "lng": -0.3783299000000001,
+      "formattedAddress": "C/ de la Llotja, 2, Ciutat Vella, 46001 València, Valencia, Spain",
+      "placeId": "ChIJ8_5rwk1PYA0RxMucY8qxErc"
+    },
+    "jardí del túria - tram viii": {
+      "lat": 39.4768647,
+      "lng": -0.3696519,
+      "formattedAddress": "Jardín del Turia, 46003 València, Valencia, Spain",
+      "placeId": "ChIJ0Uq10a1IYA0RHIncdgYl2ag"
+    },
+    "marché central de valence": {
+      "lat": 39.4734632,
+      "lng": -0.3790343,
+      "formattedAddress": "C/ de Palafox, 13, Ciutat Vella, 46001 València, Valencia, Spain",
+      "placeId": "ChIJG-bUp05PYA0RjV0kiVYDQxI"
+    },
+    "palace of the marqués de dos aguas": {
+      "lat": 39.4732863,
+      "lng": -0.3744124,
+      "formattedAddress": "Palau del Marqués de Dosaigües, Carrer del Marquès de Dos Aigües, Ciutat Vella, 46002 València, Valencia, Spain",
+      "placeId": "ChIJcW4a0bJIYA0RDeaIXYSKjUo"
+    },
+    "pointe des châteaux": {
+      "lat": 16.2444216,
+      "lng": -61.1766066,
+      "formattedAddress": "Pointe des Châteaux, Saint-François 97118, Guadeloupe",
+      "placeId": "ChIJcfY7jbC3bIwRaOQ_xskr1_I"
+    },
+    "plage de bois jolan": {
+      "lat": 16.2363889,
+      "lng": -61.3491667,
+      "formattedAddress": "Plage de Bois Jolan, Sainte-Anne 97180, Guadeloupe",
+      "placeId": "ChIJB7kTxD9LE4wRaS3YT4RjjZ4"
+    },
+    "plage du bourg": {
+      "lat": 48.36113899999999,
+      "lng": -4.5519999,
+      "formattedAddress": "Plage de Sainte-Anne, France",
+      "placeId": "ChIJm0ALVFq-FkgRsqvDpflTG2U"
+    },
+    "the beach of caravelle": {
+      "lat": 16.2176999,
+      "lng": -61.3957972,
+      "formattedAddress": "The beach of Caravelle, N4, Sainte-Anne, Guadeloupe Sainte-Anne, Sainte-Anne 97180, Guadeloupe",
+      "placeId": "ChIJKd3WJnVME4wRUFbzPEAEy3o"
+    },
+    "plage de la datcha": {
+      "lat": 16.2045786,
+      "lng": -61.4955395,
+      "formattedAddress": "Plage de la Datcha, Guadeloupe",
+      "placeId": "ChIJ1102xW1PE4wRo7hUXg1Va9g"
+    },
+    "saut de la lézarde": {
+      "lat": 16.1777157,
+      "lng": -61.6578373,
+      "formattedAddress": "58HR+3VM Saut De La Lézarde, Petit-Bourg 97170, Guadeloupe",
+      "placeId": "ChIJfVd8I9RCE4wRvAhQyahpi7s"
+    },
+    "saut de l'acomat": {
+      "lat": 16.2094782,
+      "lng": -61.7604908,
+      "formattedAddress": "Acomat Falls, Pointe-Noire 97116, Guadeloupe",
+      "placeId": "ChIJ7z3gSe1oE4wREHjyGseUjWw"
+    },
+    "plage de malendure": {
+      "lat": 16.1723986,
+      "lng": -61.7768482,
+      "formattedAddress": "Plage de Malendure, 97125 Malendure, Bouillante 97125, Guadeloupe",
+      "placeId": "ChIJ7Y_CixNmE4wRyd6lpE-NQ4E"
+    },
+    "parc national de la guadeloupe": {
+      "lat": 16.1309319,
+      "lng": -61.6814518,
+      "formattedAddress": "Guadeloupe National Park, Monteran Saint Claude, Petit-Bourg 97120, Guadeloupe",
+      "placeId": "ChIJ5SUFSgRgE4wRmcUqKLXpNvM"
+    },
+    "chutes du carbet": {
+      "lat": 16.0420242,
+      "lng": -61.6381335,
+      "formattedAddress": "Accueil des chutes du carbet, 2ème Chute du Carbet, Route de l'Habituée, 97130, Capesterre-Belle-Eau 97130, Guadeloupe",
+      "placeId": "ChIJbUIOOn9fE4wRKvblage2Zps"
+    },
+    "la soufriere": {
+      "lat": 13.3333333,
+      "lng": -61.18333329999999,
+      "formattedAddress": "La Soufrière, St Vincent and the Grenadines",
+      "placeId": "ChIJDw7Q3HyuQIwRQF9NzV_6nqk"
+    },
+    "saut d'eau de matouba": {
+      "lat": 16.0474612,
+      "lng": -61.7049558,
+      "formattedAddress": "27WW+X2M, Baillif 97123, Guadeloupe",
+      "placeId": "ChIJP7qxEwBhE4wRa-eVtC4r_ZY"
+    },
+    "cathédrale des sts michel et gudule, bruxelles": {
+      "lat": 50.8479083,
+      "lng": 4.3601497,
+      "formattedAddress": "Esp. de la Sainte-Gudule, 1000 Bruxelles, Belgium",
+      "placeId": "ChIJvTZ4_3_Dw0cRzSOE0556hYQ"
+    },
+    "galeries royales saint hubert": {
+      "lat": 50.8480832,
+      "lng": 4.355250600000001,
+      "formattedAddress": "Galerie du Roi 5, 1000 Brussel, Belgium",
+      "placeId": "ChIJu1XHbn_Ew0cRMNenwioHHhM"
+    },
+    "grand-place": {
+      "lat": 50.8467887,
+      "lng": 4.3524356,
+      "formattedAddress": "Grote Markt, 1000 Brussel, Belgium",
+      "placeId": "ChIJ8fEURn_Ew0cRts_ij101PLA"
+    },
+    "manneken pis": {
+      "lat": 50.844993,
+      "lng": 4.349989,
+      "formattedAddress": "Manneken Pis, 1000 Bruxelles, Belgium",
+      "placeId": "ChIJ0T1eGXnEw0cRH8GwIKZAuBc"
+    },
+    "rynek główny": {
+      "lat": 50.0618971,
+      "lng": 19.936756,
+      "formattedAddress": "Rynek Główny, 31-422 Kraków, Poland",
+      "placeId": "ChIJZ9pVBBJbFkcRMw11Gwf1x8M"
+    },
+    "université jagellonne de cracovie": {
+      "lat": 50.0610645,
+      "lng": 19.9328982,
+      "formattedAddress": "Gołębia 24, 31-007 Kraków, Poland",
+      "placeId": "ChIJC0cMNgxbFkcRB9jDVXm1yK8"
+    },
+    "le centre pompidou": {
+      "lat": 48.860642,
+      "lng": 2.352245,
+      "formattedAddress": "Place Georges-Pompidou, 75004 Paris, France",
+      "placeId": "ChIJoyC4CRxu5kcRRTPcWX5srLc"
+    },
+    "cathédrale notre-dame de paris": {
+      "lat": 48.85296820000001,
+      "lng": 2.3499021,
+      "formattedAddress": "6 Parvis Notre-Dame - Pl. Jean-Paul II, 75004 Paris, France",
+      "placeId": "ChIJATr1n-Fx5kcRjQb6q6cdQDY"
+    },
+    "lac vert": {
+      "lat": 45.9499316,
+      "lng": 6.7531206,
+      "formattedAddress": "Lac Vert, 74480 Passy, France",
+      "placeId": "ChIJjXfsqQtUiUcRVeAJJKLEnts"
+    },
+    "catane": {
+      "lat": 37.5078836,
+      "lng": 15.0830032,
+      "formattedAddress": "Catania, Metropolitan city of Catania, Italy",
+      "placeId": "ChIJtSUVdt3iExMR8DzIUWGH_lg"
+    },
+    "amalfi": {
+      "lat": 40.6338303,
+      "lng": 14.6027661,
+      "formattedAddress": "84011 Amalfi, SA, Italy",
+      "placeId": "ChIJ0cUhSbWVOxMRqayyn5ksGhU"
+    },
+    "positano": {
+      "lat": 40.6294837,
+      "lng": 14.4823487,
+      "formattedAddress": "84017 Positano, SA, Italy",
+      "placeId": "ChIJL3Qtj2-XOxMRu2koMaPqy8A"
+    },
+    "côte amalfitaine": {
+      "lat": 40.6333389,
+      "lng": 14.6028963,
+      "formattedAddress": "84011 Amalfi, SA, Italy",
+      "placeId": "ChIJoXFMw62VOxMR3ExPyRTP6Ew"
+    },
+    "bagni regina giovanna": {
+      "lat": 40.633806,
+      "lng": 14.3518654,
+      "formattedAddress": "Bagni Regina Giovanna, Traversa Punta Capo, 80067 Sorrento NA, Italy",
+      "placeId": "ChIJJ6wp4JaeOxMRD1JncFNPyUs"
+    },
+    "parc archéologique de pompei": {
+      "lat": 40.7512189,
+      "lng": 14.4886761,
+      "formattedAddress": "80045 Pompei, Metropolitan City of Naples, Italy",
+      "placeId": "ChIJg-rRh728OxMRNZtSjoBipHw"
+    },
+    "bastione di capo marchiafav": {
+      "lat": 38.0414703,
+      "lng": 14.0218839,
+      "formattedAddress": "Piazza Francesco Crispi, 90015 Cefalù PA, Italy",
+      "placeId": "ChIJtUeErOk7FxMR7X4VrXrgBjM"
+    },
+    "porte pescara": {
+      "lat": 38.0399971,
+      "lng": 14.0200716,
+      "formattedAddress": "Via Vittorio Emanuele, 105, 90015 Cefalù PA, Italy",
+      "placeId": "ChIJR6PjGeg7FxMRBcsJ3dIbhvo"
+    },
+    "cefalù beach": {
+      "lat": 38.0357333,
+      "lng": 14.0159268,
+      "formattedAddress": "90015 Cefalù, PA, Italy",
+      "placeId": "ChIJSVhiaWk7FxMRWLa_FUSIK2I"
+    },
+    "lavatoio medievale fiume cefalino - cefalù (pa)": {
+      "lat": 38.0393253,
+      "lng": 14.0200748,
+      "formattedAddress": "Via Vittorio Emanuele, 90015 Cefalù PA, Italy",
+      "placeId": "ChIJ_7GqocI7FxMRj89H4kNDuFk"
+    },
+    "quattro canti": {
+      "lat": 38.1156864,
+      "lng": 13.3614635,
+      "formattedAddress": "Piazza Villena, 90133 Palermo PA, Italy",
+      "placeId": "ChIJmcmp1orlGRMRoPpbuqeU7yI"
+    },
+    "mont saint-clair": {
+      "lat": 43.405707,
+      "lng": 3.675197,
+      "formattedAddress": "Mont Saint-Clair, 34200 Sète, France",
+      "placeId": "ChIJOfuv1ek1sRIRsv0lJluYJgA"
+    },
+    "jardin des plantes de montpellier": {
+      "lat": 43.6142238,
+      "lng": 3.8732543,
+      "formattedAddress": "Jardin des plantes de Montpellier, Bd Henri IV, 34000 Montpellier, France",
+      "placeId": "ChIJuaew9wavthIRVF6Rv-gqcSE"
+    },
+    "antigone": {
+      "lat": 43.6111103,
+      "lng": 3.8897149,
+      "formattedAddress": "Antigone, 34000 Montpellier, France",
+      "placeId": "ChIJ17QFkXWvthIRZGDg3vrsueM"
+    },
+    "rue de l'ancien courrier": {
+      "lat": 43.6091536,
+      "lng": 3.8763539,
+      "formattedAddress": "Rue de l'Ancien Courrier, 34000 Montpellier, France",
+      "placeId": "ChIJ2XrDwqevthIRUQ8ufa80ROg"
+    },
+    "rue de weppes": {
+      "lat": 50.6393126,
+      "lng": 3.0602485,
+      "formattedAddress": "Rue de Weppes, 59800 Lille, France",
+      "placeId": "ChIJkVgHf3gqw0cR6CuEvfDSN0c"
+    },
+    "la piscine - musée d'art et d'industrie andré diligent de roubaix": {
+      "lat": 50.692706,
+      "lng": 3.1675586,
+      "formattedAddress": "23 Rue de l'Espérance, 59100 Roubaix, France",
+      "placeId": "ChIJs-buMO8ow0cRe_pUD1ep8aQ"
+    },
+    "jardin des géants": {
+      "lat": 50.6432851,
+      "lng": 3.0752338,
+      "formattedAddress": "Jardin des Géants, 1 Rue de la Communauté, 59110 La Madeleine, France",
+      "placeId": "ChIJ30qauXQqw0cRWUdbyea4-FM"
+    },
+    "cathédrale notre-dame-de-la-treille à lille": {
+      "lat": 50.640187,
+      "lng": 3.062681,
+      "formattedAddress": "Pl. Gilleson, 59800 Lille, France",
+      "placeId": "ChIJdTqlEHgqw0cRHlCCAEhDN_k"
+    },
+    "mikonos": {
+      "lat": 37.4414601,
+      "lng": 25.3667218,
+      "formattedAddress": "Mykonos, Mikonos 846 00, Greece",
+      "placeId": "ChIJkZs88LS4ohQRobR5Hkdk0Xg"
+    },
+    "naxos": {
+      "lat": 37.1035665,
+      "lng": 25.3776734,
+      "formattedAddress": "Naxos, Naxos and Lesser Cyclades, Greece",
+      "placeId": "ChIJwYkA-qYImBQRGNKSS2PbevQ"
+    },
+    "archipel de santorin": {
+      "lat": 36.3931562,
+      "lng": 25.4615092,
+      "formattedAddress": "Santorini, Greece",
+      "placeId": "ChIJ95_9rYbOmRQR_IrWQPdhp7I"
+    },
+    "zadar": {
+      "lat": 44.119371,
+      "lng": 15.2313648,
+      "formattedAddress": "Zadar, Croatia",
+      "placeId": "ChIJj7jA0mL6YUcRhAf0Exw-MhI"
+    },
+    "split": {
+      "lat": 43.5147118,
+      "lng": 16.4435148,
+      "formattedAddress": "Split, Croatia",
+      "placeId": "ChIJF_W8a_xdNRMRmJ-0MfaPeaE"
+    },
+    "dubrovnik": {
+      "lat": 42.65066059999999,
+      "lng": 18.0944238,
+      "formattedAddress": "Dubrovnik, Croatia",
+      "placeId": "ChIJfeg1CKKLSxMRANUrhlCtAAQ"
+    },
+    "venise": {
+      "lat": 45.440379,
+      "lng": 12.3159547,
+      "formattedAddress": "Venice, Metropolitan City of Venice, Italy",
+      "placeId": "ChIJiT3W8dqxfkcRLxCSvfDGo3s"
+    },
+    "lanzarote": {
+      "lat": 29.0468535,
+      "lng": -13.5899733,
+      "formattedAddress": "Lanzarote, Las Palmas, Spain",
+      "placeId": "ChIJizmiHM0jRgwRGBV7xYrWoKI"
+    }
+  }
+}

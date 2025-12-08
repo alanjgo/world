@@ -1,188 +1,205 @@
-import { useRef, useState, useEffect, useCallback, useMemo } from 'react';
-import Globe  from 'react-globe.gl';
+import { useRef, useState, useEffect, useMemo } from 'react';
+import Globe from 'react-globe.gl';
 import * as turf from '@turf/turf';
+import { createCircle, getDefaultRadius } from '../utils/radiusCalculator';
 
-const STORAGE_KEY = 'scratch-map-scratched-countries';
+// Import geocoded data directly from JSON file
+import geocodedData from '../data/geocoded.json';
+
+// Import Earth texture
+import earthTexture from '../assets/8k_earth_daymap.jpg';
+
+const RADIUS_KM = getDefaultRadius();
 
 function GlobeComponent() {
   const globeRef = useRef();
   const [countries, setCountries] = useState({ features: [] });
-  const [scratchedCountries, setScratchedCountries] = useState(new Set());
-  const [isDragging, setIsDragging] = useState(false);
 
-  // Load scratched countries from localStorage on mount
+  // Convert geocoded.json data to places array
+  const geocodedPlaces = useMemo(() => {
+    if (!geocodedData.places) return [];
+    
+    return Object.entries(geocodedData.places).map(([name, coords]) => ({
+      title: name,
+      lat: coords.lat,
+      lng: coords.lng,
+      formattedAddress: coords.formattedAddress,
+      geocoded: true
+    }));
+  }, []);
+
+  // Load country GeoJSON data
   useEffect(() => {
-    try {
-      const saved = localStorage.getItem(STORAGE_KEY);
-      if (saved) {
-        const parsed = JSON.parse(saved);
-        setScratchedCountries(new Set(parsed));
-      }
-    } catch (err) {
-      console.error('Error loading scratched countries:', err);
-    }
-  }, []);
-
-  // Save scratched countries to localStorage whenever they change
-  useEffect(() => {
-    try {
-      localStorage.setItem(STORAGE_KEY, JSON.stringify([...scratchedCountries]));
-    } catch (err) {
-      console.error('Error saving scratched countries:', err);
-    }
-  }, [scratchedCountries]);
-
-  // Get unique country identifier
-  const getCountryId = useCallback((country) => {
-    return country.properties.name || 
-           country.properties.NAME || 
-           country.properties.ADMIN || 
-           country.properties.NAME_EN || 
-           'unknown';
-  }, []);
-
-  // Handle mouse down - start dragging
-  const handleMouseDown = useCallback(() => {
-    setIsDragging(true);
-  }, []);
-
-  // Handle mouse up - stop dragging
-  const handleMouseUp = useCallback(() => {
-    setIsDragging(false);
-  }, []);
-
-  // Handle polygon hover - scratch country when dragging
-  const handlePolygonHover = useCallback((polygon, prevPolygon, event) => {
-    if (isDragging && polygon) {
-      const countryId = getCountryId(polygon);
-      setScratchedCountries(prev => {
-        const newSet = new Set(prev);
-        newSet.add(countryId);
-        return newSet;
-      });
-    }
-  }, [isDragging, getCountryId]);
-
-  // Handle polygon click - also scratch on click
-  const handlePolygonClick = useCallback((polygon, event) => {
-    if (polygon) {
-      const countryId = getCountryId(polygon);
-      setScratchedCountries(prev => {
-        const newSet = new Set(prev);
-        newSet.add(countryId);
-        return newSet;
-      });
-    }
-  }, [getCountryId]);
-
-  useEffect(() => {
-    // Charger les données GeoJSON des pays
     fetch('https://raw.githubusercontent.com/holtzy/D3-graph-gallery/master/DATA/world.geojson')
       .then(res => res.json())
       .then(data => setCountries(data))
-      .catch(err => console.error('Erreur lors du chargement des données:', err));
+      .catch(err => console.error('Error loading country data:', err));
   }, []);
 
-  // Determine polygon color based on scratched state
-  const getPolygonColor = useCallback((country) => {
-    const countryId = getCountryId(country);
-    const isScratched = scratchedCountries.has(countryId);
-    
-    if (isScratched) {
-      // Scratched: transparent to show the globe underneath
-      return 'rgba(0, 0, 0, 0)';
-    } else {
-      // Unscratched: completely opaque dark overlay to hide the globe
-      return 'rgba(0, 0, 0, 1)';
-    }
-  }, [scratchedCountries, getCountryId]);
+  // Create circles for all geocoded places
+  const scratchedCircles = useMemo(() => {
+    return geocodedPlaces
+      .filter(place => place.geocoded && place.lat && place.lng)
+      .map(place => {
+        const circle = createCircle(place.lat, place.lng, RADIUS_KM, 64);
+        circle.properties = {
+          title: place.title,
+          formattedAddress: place.formattedAddress,
+          lat: place.lat,
+          lng: place.lng
+        };
+        return circle;
+      });
+  }, [geocodedPlaces]);
 
-  // Create labels data for scratched countries
-  const labelsData = useMemo(() => {
-    return countries.features
-      .filter(country => {
-        const countryId = getCountryId(country);
-        return scratchedCountries.has(countryId);
-      })
-      .map(country => {
-        try {
-          // Calculate centroid of the polygon
-          const feature = turf.feature(country.geometry);
-          const centroid = turf.centroid(feature);
-          const [lng, lat] = centroid.geometry.coordinates;
-          
-          return {
-            lat,
-            lng,
-            text: country.properties.name || 
-                  country.properties.NAME || 
-                  country.properties.ADMIN || 
-                  country.properties.NAME_EN || 
-                  'Unknown',
-            countryId: getCountryId(country)
-          };
-        } catch (err) {
-          // Fallback: try to get coordinates from the geometry
-          const coords = country.geometry.coordinates;
-          let lat, lng;
-          
-          if (country.geometry.type === 'Polygon' && coords[0] && coords[0].length > 0) {
-            // Get first coordinate as fallback
-            [lng, lat] = coords[0][0];
-          } else if (country.geometry.type === 'MultiPolygon' && coords[0] && coords[0][0] && coords[0][0].length > 0) {
-            [lng, lat] = coords[0][0][0];
-          } else {
-            return null;
+  // Create center points for the circles (for labels)
+  const centerPoints = useMemo(() => {
+    return geocodedPlaces
+      .filter(place => place.geocoded && place.lat && place.lng)
+      .map(place => ({
+        lat: place.lat,
+        lng: place.lng,
+        title: place.title,
+        formattedAddress: place.formattedAddress
+      }));
+  }, [geocodedPlaces]);
+
+  // Check if a country polygon intersects with any scratched circle
+  const isCountryScratched = useMemo(() => {
+    if (scratchedCircles.length === 0) return () => false;
+
+    // Create a quick lookup using bounding boxes
+    const circleBounds = scratchedCircles.map(circle => ({
+      circle,
+      bbox: turf.bbox(circle)
+    }));
+
+    return (country) => {
+      try {
+        const countryFeature = turf.feature(country.geometry);
+        const countryBbox = turf.bbox(countryFeature);
+
+        for (const { circle, bbox } of circleBounds) {
+          // Quick bounding box check first
+          if (
+            countryBbox[2] < bbox[0] || // country max X < circle min X
+            countryBbox[0] > bbox[2] || // country min X > circle max X
+            countryBbox[3] < bbox[1] || // country max Y < circle min Y
+            countryBbox[1] > bbox[3]    // country min Y > circle max Y
+          ) {
+            continue; // No overlap possible
           }
-          
-          return {
-            lat,
-            lng,
-            text: country.properties.name || 
-                  country.properties.NAME || 
-                  country.properties.ADMIN || 
-                  country.properties.NAME_EN || 
-                  'Unknown',
-            countryId: getCountryId(country)
-          };
+
+          // Check if country centroid is within any circle
+          const centroid = turf.centroid(countryFeature);
+          if (turf.booleanPointInPolygon(centroid, circle)) {
+            return true;
+          }
+
+          // Check if any circle center is within the country
+          const circleCenter = turf.point([circle.properties.lng, circle.properties.lat]);
+          if (turf.booleanPointInPolygon(circleCenter, countryFeature)) {
+            return true;
+          }
+
+          // Check for intersection
+          try {
+            if (turf.booleanIntersects(countryFeature, circle)) {
+              return true;
+            }
+          } catch (e) {
+            // Fallback: distance-based check
+            const distance = turf.distance(centroid, circleCenter, { units: 'kilometers' });
+            if (distance <= RADIUS_KM * 1.5) {
+              return true;
+            }
+          }
         }
-      })
-      .filter(label => label !== null);
-  }, [countries.features, scratchedCountries, getCountryId]);
+        return false;
+      } catch (err) {
+        console.warn('Error checking country intersection:', err);
+        return false;
+      }
+    };
+  }, [scratchedCircles]);
+
+  // Determine polygon color based on whether it intersects with any scratched circle
+  const getPolygonColor = useMemo(() => {
+    return (country) => {
+      if (isCountryScratched(country)) {
+        // Scratched: transparent to show the globe underneath
+        return 'rgba(0, 0, 0, 0)';
+      } else {
+        // Unscratched: hide the globe
+        return 'rgba(0, 0, 0, 1)';
+      }
+    };
+  }, [isCountryScratched]);
+
+
+  // Points data for location markers
+  const pointsData = useMemo(() => {
+    return centerPoints.map(point => ({
+      lat: point.lat,
+      lng: point.lng,
+      size: 0.1,
+      color: '#ff6b6b',
+      title: point.title
+    }));
+  }, [centerPoints]);
 
   return (
-    <div 
-      onMouseDown={handleMouseDown}
-      onMouseUp={handleMouseUp}
-      onMouseLeave={handleMouseUp}
-      style={{ width: '100%', height: '100%', userSelect: 'none' }}
-    >
+    <div style={{ width: '100%', height: '100%', userSelect: 'none', position: 'relative' }}>
+      {/* Stats overlay */}
+      <div style={{
+        position: 'absolute',
+        bottom: '20px',
+        left: '20px',
+        zIndex: 100,
+        background: 'rgba(0, 0, 0, 0.7)',
+        padding: '10px 15px',
+        borderRadius: '8px',
+        color: 'white',
+        fontSize: '14px'
+      }}>
+        📍 {geocodedPlaces.length} places loaded
+      </div>
       <Globe
         ref={globeRef}
-        globeImageUrl="https://unpkg.com/three-globe/example/img/earth-blue-marble.jpg"
+        // Texture haute résolution 8K (8192x4096) - locale
+        globeImageUrl={earthTexture}
+        bumpImageUrl="https://unpkg.com/three-globe@2.41.12/example/img/earth-topology.png"
         backgroundImageUrl="https://unpkg.com/three-globe/example/img/night-sky.png"
         backgroundColor="rgba(0, 0, 0, 0)"
+        
+        // Amélioration du rendu WebGL
+        rendererConfig={{ 
+          antialias: true, 
+          alpha: true,
+          powerPreference: 'high-performance'
+        }}
+        
+        // Country polygons as dark overlay
         polygonsData={countries.features}
         polygonGeoJsonGeometry={d => d.geometry}
         polygonCapColor={getPolygonColor}
         polygonSideColor={getPolygonColor}
-        polygonStrokeColor={() => 'rgba(255, 255, 255, 0.3)'}
+        polygonStrokeColor={() => 'rgba(255, 255, 255, 0.1)'}
         polygonAltitude={0.01}
-        onPolygonHover={handlePolygonHover}
-        onPolygonClick={handlePolygonClick}
+        
+        
+        // Location points
+        pointsData={pointsData}
+        pointLat={d => d.lat}
+        pointLng={d => d.lng}
+        pointColor={d => d.color}
+        pointAltitude={0}
+        pointRadius={d => d.size}
+        
         enablePointerInteraction={true}
-        labelsData={labelsData}
-        labelLat={d => d.lat}
-        labelLng={d => d.lng}
-        labelText={d => d.text}
-        labelColor={() => 'rgba(255, 255, 255, 0.9)'}
-        labelSize={1}
-        labelAltitude={0.02}
-        labelIncludeDot={false}
       />
     </div>
   );
 }
 
 export default GlobeComponent;
-
