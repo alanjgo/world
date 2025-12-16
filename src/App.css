@@ -29,3 +29,25 @@
   display: none; /* Chrome, Safari, Opera */
 }
 
+/* Mobile responsive styles */
+@media (max-width: 768px) {
+  .stats-overlay {
+    bottom: 10px !important;
+    left: 10px !important;
+    right: 10px !important;
+    max-width: calc(100% - 20px);
+    max-height: calc(100vh - 20px);
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+  }
+  
+  .countries-list {
+    max-height: 180px !important;
+    overflow-y: auto;
+    flex: 1;
+    min-height: 0;
+    -webkit-overflow-scrolling: touch;
+  }
+}
+

@@ -211,7 +211,7 @@ function GlobeComponent() {
   return (
     <div style={{ width: '100%', height: '100%', userSelect: 'none', position: 'relative' }}>
       {/* Stats overlay */}
-      <div style={{
+      <div className="stats-overlay" style={{
         position: 'absolute',
         bottom: '20px',
         left: '20px',
@@ -233,11 +233,11 @@ function GlobeComponent() {
         </div>
         
         {showCountriesList && visitedCountriesData.list.length > 0 && (
-          <div className="hide-scrollbar" style={{
+          <div className="hide-scrollbar countries-list" style={{
             marginTop: '10px',
             paddingTop: '10px',
             borderTop: '1px solid rgba(255, 255, 255, 0.3)',
-            maxHeight: '300px',
+            maxHeight: '180px',
             overflowY: 'auto',
           }}>
             {visitedCountriesData.list.map((country, index) => (
