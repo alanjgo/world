@@ -127,7 +127,7 @@ function DataLoader({ onDataLoaded, onLoadingChange }) {
     const apiKey = getApiKey();
     
     if (!apiKey) {
-      setError('Google Maps API key is required. Please add VITE_GOOGLE_MAPS_API_KEY to your .env.local file.');
+      setError('Google Maps API key is required');
       return;
     }
 
@@ -369,7 +369,6 @@ function DataLoader({ onDataLoaded, onLoadingChange }) {
                 key={index} 
                 style={{ 
                   padding: '5px', 
-                  borderBottom: '1px solid rgba(255,255,255,0.1)',
                   color: place.geocoded ? '#fff' : '#ff6b6b'
                 }}
               >

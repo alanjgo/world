@@ -14,6 +14,7 @@ const RADIUS_KM = getDefaultRadius();
 function GlobeComponent() {
   const globeRef = useRef();
   const [countries, setCountries] = useState({ features: [] });
+  const [showCountriesList, setShowCountriesList] = useState(false);
 
   // Convert geocoded.json data to places array
   const geocodedPlaces = useMemo(() => {
@@ -131,22 +132,81 @@ function GlobeComponent() {
         return 'rgba(0, 0, 0, 0)';
       } else {
         // Unscratched: hide the globe
-        return 'rgba(0, 0, 0, 1)';
+        return 'rgba(0, 0, 0, 3)';
       }
     };
   }, [isCountryScratched]);
 
+  // Get list of visited countries based on exact places
+  const visitedCountriesData = useMemo(() => {
+    if (!countries.features || countries.features.length === 0 || geocodedPlaces.length === 0) {
+      return { count: 0, list: [] };
+    }
+    
+    const visitedCountryNames = new Set();
+    
+    // Pre-compute country bounding boxes for faster filtering
+    const countriesWithBbox = countries.features.map(country => {
+      try {
+        const countryFeature = turf.feature(country.geometry);
+        return {
+          country,
+          countryFeature,
+          bbox: turf.bbox(countryFeature),
+          countryName: country.properties?.NAME || 
+                      country.properties?.NAME_EN || 
+                      country.properties?.NAME_LONG || 
+                      country.properties?.ADMIN || 
+                      country.properties?.name || 
+                      ''
+        };
+      } catch (err) {
+        return null;
+      }
+    }).filter(item => item !== null && item.countryName);
+    
+    // For each place, find which country contains it
+    for (const place of geocodedPlaces) {
+      if (!place.geocoded || !place.lat || !place.lng) continue;
+      
+      const placePoint = turf.point([place.lng, place.lat]);
+      const [lng, lat] = [place.lng, place.lat];
+      
+      // Check each country to see if it contains this place
+      for (const { countryFeature, bbox, countryName } of countriesWithBbox) {
+        try {
+          // Quick bounding box check first (much faster)
+          if (lng < bbox[0] || lng > bbox[2] || lat < bbox[1] || lat > bbox[3]) {
+            continue; // Point is outside bounding box
+          }
+          
+          // Check if the place point is within the country polygon
+          if (turf.booleanPointInPolygon(placePoint, countryFeature)) {
+            visitedCountryNames.add(countryName);
+            break; // Found the country for this place, move to next place
+          }
+        } catch (err) {
+          // Skip countries with invalid geometry
+          continue;
+        }
+      }
+    }
+    
+    // Convert Set to sorted array
+    const countryList = Array.from(visitedCountryNames).sort();
+    
+    return {
+      count: countryList.length,
+      list: countryList
+    };
+  }, [countries.features, geocodedPlaces]);
+
+  const countriesVisited = visitedCountriesData.count;
 
   // Points data for location markers
   const pointsData = useMemo(() => {
-    return centerPoints.map(point => ({
-      lat: point.lat,
-      lng: point.lng,
-      size: 0.1,
-      color: '#ff6b6b',
-      title: point.title
-    }));
-  }, [centerPoints]);
+    return [];
+  }, []);
 
   return (
     <div style={{ width: '100%', height: '100%', userSelect: 'none', position: 'relative' }}>
@@ -160,9 +220,38 @@ function GlobeComponent() {
         padding: '10px 15px',
         borderRadius: '8px',
         color: 'white',
-        fontSize: '14px'
+        fontSize: '20px',
+        minWidth: '200px'
       }}>
-        📍 {geocodedPlaces.length} places loaded
+        <div 
+          onClick={() => setShowCountriesList(!showCountriesList)}
+          style={{
+            cursor: 'pointer',
+            userSelect: 'none'
+          }}
+        >
+        {countriesVisited} countries visited {showCountriesList}
+        </div>
+        
+        {showCountriesList && visitedCountriesData.list.length > 0 && (
+          <div className="hide-scrollbar" style={{
+            marginTop: '10px',
+            paddingTop: '10px',
+            borderTop: '1px solid rgba(255, 255, 255, 0.3)',
+            maxHeight: '300px',
+            overflowY: 'auto',
+            fontSize: '20px'
+          }}>
+            {visitedCountriesData.list.map((country, index) => (
+              <div key={index} style={{
+                padding: '4px 0',
+
+              }}>
+                {country}
+              </div>
+            ))}
+          </div>
+        )}
       </div>
       <Globe
         ref={globeRef}
@@ -185,7 +274,7 @@ function GlobeComponent() {
         polygonCapColor={getPolygonColor}
         polygonSideColor={getPolygonColor}
         polygonStrokeColor={() => 'rgba(255, 255, 255, 0.1)'}
-        polygonAltitude={0.01}
+        polygonAltitude={0.02}
         
         
         // Location points
