@@ -29,24 +29,30 @@
   display: none; /* Chrome, Safari, Opera */
 }
 
+/* Stats overlay base styles */
+.stats-overlay {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  z-index: 100;
+  background: rgba(0, 0, 0, 0.7);
+  padding: 10px 15px;
+  border-radius: 8px;
+  color: white;
+  min-width: 200px;
+}
+
 /* Mobile responsive styles */
 @media (max-width: 768px) {
   .stats-overlay {
-    position: absolute !important;
-    bottom: 10px !important;
-    left: 10px !important;
-    right: 10px !important;
-    max-width: calc(100% - 20px) !important;
-    max-height: calc(100vh - 20px) !important;
-    display: flex !important;
-    flex-direction: column !important;
-    z-index: 1000 !important;
-    visibility: visible !important;
-    opacity: 1 !important;
-    pointer-events: auto !important;
-    transform: translateZ(0) !important;
-    -webkit-transform: translateZ(0) !important;
-    will-change: transform !important;
+    bottom: 10px;
+    left: 10px;
+    right: 10px;
+    max-width: calc(100% - 20px);
+    max-height: calc(100vh - 20px);
+    display: flex;
+    flex-direction: column;
+    min-width: auto;
   }
   
   .countries-list {

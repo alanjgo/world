@@ -211,17 +211,7 @@ function GlobeComponent() {
   return (
     <div style={{ width: '100%', height: '100%', userSelect: 'none', position: 'relative' }}>
       {/* Stats overlay */}
-      <div className="stats-overlay" style={{
-        position: 'absolute',
-        bottom: '20px',
-        left: '20px',
-        zIndex: 100,
-        background: 'rgba(0, 0, 0, 0.7)',
-        padding: '10px 15px',
-        borderRadius: '8px',
-        color: 'white',
-        minWidth: '200px'
-      }}>
+      <div className="stats-overlay">
         <div 
           onClick={() => setShowCountriesList(!showCountriesList)}
           style={{
