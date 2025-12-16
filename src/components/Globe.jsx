@@ -220,7 +220,6 @@ function GlobeComponent() {
         padding: '10px 15px',
         borderRadius: '8px',
         color: 'white',
-        fontSize: '20px',
         minWidth: '200px'
       }}>
         <div 
@@ -240,7 +239,6 @@ function GlobeComponent() {
             borderTop: '1px solid rgba(255, 255, 255, 0.3)',
             maxHeight: '300px',
             overflowY: 'auto',
-            fontSize: '20px'
           }}>
             {visitedCountriesData.list.map((country, index) => (
               <div key={index} style={{

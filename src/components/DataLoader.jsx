@@ -231,7 +231,7 @@ function DataLoader({ onDataLoaded, onLoadingChange }) {
         <h3 style={{ margin: 0, fontSize: '18px' }}>🗺️ Scratch Map</h3>
         <button
           onClick={() => setShowPanel(false)}
-          style={{ background: 'transparent', border: 'none', color: 'white', cursor: 'pointer', fontSize: '20px' }}
+          style={{ background: 'transparent', border: 'none', color: 'white', cursor: 'pointer'}}
         >
           ×
         </button>
